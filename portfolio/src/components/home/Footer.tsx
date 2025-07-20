@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return <div>This is a footer</div>;
+  return <div className="min-h-screen">This is a footer</div>;
 };
 
 export default Footer;
