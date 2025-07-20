@@ -14,7 +14,7 @@ const navItems = [
   { id: "about", label: "About me" },
   { id: "services", label: "Services" },
   { id: "work", label: "My work" },
-  { id: "testimonials", label: "Testimonials" },
+  { id: "contact", label: "Contact Me" },
 ];
 
 const Navbar = () => {
@@ -33,14 +33,14 @@ const Navbar = () => {
     <div
       className={`${
         scrolling ? "border-b-1 border-gray-300" : ""
-      } sticky top-0 left-0 bg-white flex items-center justify-between px-8 py-3 xl:px-[100px] 2xl:px-[173px] 2xl:py-[20px] w-full h-[120px] z-50`}
+      } sticky top-0 left-0 bg-gray-200s flex items-center justify-between px-8 py-3 xl:px-[100px] 2xl:px-[173px] 2xl:py-[20px] w-full h-[120px] z-50`}
     >
       <div>
         <h1 className="font-semibold text-[37px] xl:text-[45px] tracking-[0px] flex gap-1.5">
           Kushal<span className="text-red-500">.</span>
         </h1>
       </div>
-      <div className="hidden lg:flex items-center gap-10 xl:border-1 lg:border-gray-300 rounded-full lg:px-14 py-3">
+      <div className="hidden lg:flex items-center gap-10 xl:border-1 lg:border-gray-200 shadow-md rounded-full lg:px-14 py-3 bg-white">
         {navItems.map((item) => (
           <a
             href={`#${item.id}`}
