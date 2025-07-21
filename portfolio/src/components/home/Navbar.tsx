@@ -55,9 +55,9 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex items-center gap-8">
-          <div className="cursor-pointer hidden lg:block">
+          <div className="cursor-pointer">
             {/* <Moon /> */}
-            <Sun />
+            <Sun className="w-7 h-7" />
           </div>
           <div className="hidden lg:flex items-center">
             <button className="rounded-full py-3 px-8 flex items-center gap-2 text-[14px] xl:text-[18px] border-1 border-black cursor-pointer">
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <X className="w-14 h-14" />
               </div>
             </div>
-            <div className="flex flex-col mt-20 ml-8 text-[25px] space-y-6">
+            <div className="flex flex-col mt-24 ml-8 text-[25px] space-y-6">
               {navItems.map((item) => (
                 <a
                   key={item.id}
