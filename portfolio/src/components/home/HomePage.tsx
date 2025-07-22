@@ -24,11 +24,11 @@ const HomePage = () => {
         Solutions, CodSoft.
       </p>
 
-      <div className="flex gap-4 mt-8">
+      <div className="flex flex-col sm:flex-row gap-4 mt-8">
         <button className="bg-black text-white px-6 py-3 rounded-full flex items-center gap-2 cursor-pointer">
           connect with me <MoveRight className="w-4" />
         </button>
-        <button className="border border-black px-6 py-3 rounded-full flex items-center gap-2 cursor-pointer">
+        <button className="border border-black px-6 py-3 rounded-full flex items-center justify-center gap-2 cursor-pointer">
           my resume <Download className="h-5 w-5" />
         </button>
       </div>
