@@ -4,7 +4,7 @@ import React from "react";
 const HomePage = () => {
   return (
     <section
-      className="h-screen flex flex-col items-center justify-center text-center px-4"
+      className="h-screen flex flex-col items-center justify-center text-center"
       id="home"
     >
       <img
