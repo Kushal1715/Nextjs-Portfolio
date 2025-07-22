@@ -35,7 +35,7 @@ const Navbar = () => {
     <div
       className={`${
         scrolling ? "border-b-1 border-gray-200" : ""
-      } sticky top-0 left-0 bg-gray-100 w-full h-[120px] z-50`}
+      } fixed top-0 left-0 bg-gray-100 w-full h-[120px] z-50`}
     >
       <div className="flex items-center justify-between relative px-8 py-3 xl:px-[100px] 2xl:px-[173px] 2xl:py-[20px]">
         <div>
