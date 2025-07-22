@@ -34,10 +34,10 @@ const Navbar = () => {
   return (
     <div
       className={`${
-        scrolling ? "border-b-1 border-gray-300" : ""
-      } sticky top-0 left-0 bg-gray-200s   w-full h-[120px] z-50`}
+        scrolling ? "border-b-1 border-gray-200" : ""
+      } fixed top-0 left-0 bg-gray-100 w-full z-50`}
     >
-      <div className="flex items-center justify-between relative px-8 py-3 xl:px-[100px] 2xl:px-[173px] 2xl:py-[20px]">
+      <div className="flex items-center justify-between relative px-4 lg:px-6 py-3 xl:px-[85px] 2xl:px-[173px] 2xl:py-[20px]">
         <div>
           <h1 className="font-semibold text-[37px] xl:text-[45px] tracking-[0px] flex gap-1.5">
             Kushal<span className="text-red-500">.</span>
@@ -54,7 +54,7 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-6">
           <div className="cursor-pointer">
             {/* <Moon /> */}
             <Sun className="w-7 h-7" />
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
           <div className="cursor-pointer">
             <button
-              className="lg:hidden text-[18px] "
+              className="lg:hidden text-[18px]"
               onClick={() => setOpenSidebar(true)}
             >
               <AlignJustify className="h-9 w-9" />
