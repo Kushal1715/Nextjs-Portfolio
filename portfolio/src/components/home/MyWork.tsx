@@ -4,7 +4,7 @@ const MyWork = () => {
   return (
     <div
       id="work"
-      className="h-screen flex flex-col text-center justify-center"
+      className="min-h-screen flex flex-col text-center justify-center"
     >
       <h4 className="text-lg mb-2">My Portfolio</h4>
       <h1 className="text-5xl mb-6">My latest work</h1>
