@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section
-      className="min-h-screen flex flex-col items-center justify-center text-center mb-32 sm:mb-0"
+      className="min-h-screen flex flex-col items-center justify-center text-center mb-32 lg:mb-0"
       id="about"
     >
       <h4 className="text-lg mb-2">Introduction</h4>
@@ -16,7 +16,7 @@ const About = () => {
           />
         </div>
         <div className="flex flex-col space-y-8 py-4">
-          <p className="lg:text-left text-2xl max-w-[700px]">
+          <p className="lg:text-left text-lg lg:text-2xl max-w-[700px]">
             I am an experienced Full Stack Developer with over a decade of
             professional expertise in the field. Throughout my career, I have
             had the privilege of collaborating with prestigious organizations,
