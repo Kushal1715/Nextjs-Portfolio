@@ -89,7 +89,7 @@ const Navbar = () => {
                 <a
                   key={item.id}
                   href={`#${item.id}`}
-                  className=""
+                  className="hover:text-white"
                   onClick={() => setOpenSidebar(false)}
                 >
                   {item.label}
