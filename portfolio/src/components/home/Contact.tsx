@@ -7,14 +7,14 @@ const Contact = () => {
       className="text-center bg-white h-screen flex items-center justify-center flex-col"
       id="contact"
     >
-      <h4 className="text-lg font-medium mb-2">Connect with me</h4>
-      <h2 className="text-4xl md:text-5xl font-semibold mb-4">Get in touch</h2>
+      <h4 className="text-lg font-medium mb-3">Connect with me</h4>
+      <h2 className="text-4xl md:text-5xl font-semibold mb-5">Get in touch</h2>
       <p className="text-gray-600 max-w-xl mx-auto mb-12">
         I'd love to hear from you! If you have any questions, comments or
         feedback, please use the form below.
       </p>
 
-      <form className="w-full md:max-w-3xl space-y-6">
+      <form className="w-full md:max-w-3xl space-y-10">
         {/* Name & Email Row */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
           <input
@@ -31,7 +31,7 @@ const Contact = () => {
 
         {/* Message */}
         <textarea
-          rows={6}
+          rows={8}
           placeholder="Enter your message"
           className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black resize-none"
         />
